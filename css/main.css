@@ -958,7 +958,7 @@ pre[class*='highlight'] {
   font-size: 1.3rem;
 }
 .navbar-logo-img {
-  height: 34px;
+  height: 26px;
   margin-right: 10px;
 }
 .navbar-menu {
@@ -1524,9 +1524,9 @@ mjx-container svg:focus {
   align-items: center;
 }
 .about-card-avatar {
-  width: 150px;
-  height: 150px;
-  margin-right: 90px;
+  width: 70px;
+  height: 70px;
+  margin-right: 70px;
 }
 .about-card-content {
   display: flex;

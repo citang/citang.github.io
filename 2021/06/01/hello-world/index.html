@@ -123,46 +123,10 @@
       
       <img class="navbar-logo-img" src="https://demo.theme-kaze.top/img/Kaze.png" alt="logo">
       
-      <span class="navbar-logo-dsc">星球指北</span>
+      <a href="/" class="navbar-logo-dsc">星球指北</a>
     </span>
   </div>
   <div class="navbar-menu">
-    
-    <a href="/" class="navbar-menu-item">
-    
-    首页
-    
-    </a>
-    
-    <a href="/archives" class="navbar-menu-item">
-    
-    归档
-    
-    </a>
-    
-    <a href="/tags" class="navbar-menu-item">
-    
-    标签
-    
-    </a>
-    
-    <a href="/categories" class="navbar-menu-item">
-    
-    分类
-    
-    </a>
-    
-    <a href="/about" class="navbar-menu-item">
-    
-    关于
-    
-    </a>
-    
-    <a href="/links" class="navbar-menu-item">
-    
-    友链
-    
-    </a>
     
     <a class="navbar-menu-item darknavbar" id="dark"><i class="iconfont icon-weather"></i></a>
     <a class="navbar-menu-item searchnavbar" id="search"><i class="iconfont icon-search" style="font-size: 1.2rem; font-weight: 400;"></i></a>
@@ -253,7 +217,7 @@
                 
 <img src="https://demo.theme-kaze.top/img/Kaze.png" class="author-img">
 
-<p class="author-name">呲糖</p>
+<a href="/about" class="author-name">呲糖</a>
 <p class="author-description">Keep Drifting Off</p>
 <div class="author-message">
   <a class="author-posts-count" href="/archives">
@@ -268,6 +232,16 @@
     <span>0</span>
     <span>标签</span>
   </a>
+</div>
+
+<div class="author-card-society">
+  
+    <div class="author-card-society-icon">
+      <a target="_blank" rel="noopener" href="https://github.com/citang">
+        <i class="iconfont icon-github society-icon"></i>
+      </a>
+    </div>
+  
 </div>
 
               </div>
@@ -357,6 +331,11 @@
     
     
     
+    <div class="BbeiAn-info">
+      <a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">浙ICP备20010528号 </a>
+    </div>
+    
+    
     
 </footer> <a role="button" id="scrollbutton" class="basebutton"  aria-label="回到顶部">
   <i class="iconfont icon-arrowleft button-icon"></i>
@@ -418,6 +397,11 @@
       loadScript('/js/lib/lozad.min.js', addLazyload)
     </script>
      
+    
+    <script>
+      setTimeout(() => {
+        localSearch('search.json')}, 0)
+    </script>
     
   </body>
 </html>
