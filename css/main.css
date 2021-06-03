@@ -850,7 +850,7 @@ pre[class*='highlight'] {
   transition: background-color 0.3s;
   width: 100%;
   box-shadow: var(--around-shadow-style);
-  padding: 1.5rem 1rem 1.5rem;
+  padding: 1.5rem 1rem 1rem;
   bottom: 0;
 }
 .footer-container {
@@ -871,6 +871,7 @@ pre[class*='highlight'] {
   align-items: center;
 }
 .BbeiAn-info {
+  margin-bottom: 4.5px;
   display: flex;
   justify-content: center;
 }
