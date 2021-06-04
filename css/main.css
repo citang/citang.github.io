@@ -719,6 +719,7 @@ pre[class*='highlight'] {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
+  border-radius: 4px 4px 0px 0px;
   -webkit-filter: var(--image-filter-style);
   filter: var(--image-filter-style);
   position: absolute;
@@ -1164,6 +1165,7 @@ mjx-container svg:focus {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
+  border-radius: 4px 4px 0px 0px;
   -webkit-filter: var(--image-filter-style);
   filter: var(--image-filter-style);
   position: absolute;
@@ -1247,8 +1249,8 @@ mjx-container svg:focus {
   margin-top: 12px;
   z-index: 20;
   position: fixed;
-  left: 10%;
-  width: 80%;
+  left: 25%;
+  width: 50%;
   height: 44px;
   padding: 8px 12px;
   border-radius: 4px;
@@ -1265,8 +1267,9 @@ mjx-container svg:focus {
   position: fixed;
   z-index: 20;
   margin-top: 64px;
-  left: 10%;
-  width: 80%;
+  left: 25%;
+  width: 50%;
+  border-radius: 4px;
 }
 #search-content .local-search-empty {
   color: var(--info-text-color);
