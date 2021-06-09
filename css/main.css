@@ -477,6 +477,7 @@ pre[class*='highlight'] {
   width: 5rem;
   height: 5rem;
   transition: all 0.5s;
+  border-radius: 5px 5px 5px 5px;
 }
 .author-name {
   margin-top: 0.8rem;
