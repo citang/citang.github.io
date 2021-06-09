@@ -428,6 +428,7 @@ pre[class*='highlight'] {
 }
 .archive-card-header .iconfont {
   font-size: 16px;
+  color: #00bcd4;
 }
 .archive-card-list-item {
   display: block;
@@ -671,6 +672,7 @@ pre[class*='highlight'] {
 }
 .categories-header .iconfont {
   font-size: 16px;
+  color: #ff9800;
 }
 .categories-list-item {
   color: var(--text-color);
@@ -1212,6 +1214,7 @@ mjx-container svg:focus {
 }
 .recent-posts-header .iconfont {
   font-size: 16px;
+  color: #ff5722;
 }
 .recent-posts-item {
   padding-left: 6px;
@@ -1333,6 +1336,7 @@ mjx-container svg:focus {
 }
 .tags-header .iconfont {
   font-size: 16px;
+  color: #2196f3;
 }
 .tags-list {
   overflow: hidden;
@@ -1342,11 +1346,11 @@ mjx-container svg:focus {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: var(--text-color);
+  color: #fff;
   float: left;
   margin: 0 7px 8px 7px;
   font-size: 1rem;
-  background-color: var(--badge-background-color);
+  background-color: #2196f3;
   transition: background-color 0.3s;
   padding: 3px 7px;
   text-align: center;
