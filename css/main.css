@@ -1229,10 +1229,10 @@ mjx-container svg:focus {
   font-size: 0.9rem;
 }
 .recent-posts-item-content {
-  color: var(--text-color);
+  color: #0a85bd;
   margin-top: 6px;
-  font-size: 1.15rem;
-  padding: 6px 0;
+  font-size: 1.1rem;
+  padding: 1px 0;
   padding-left: 8px;
   transition: all 0.4s;
 }
@@ -1488,10 +1488,10 @@ mjx-container svg:focus {
   overflow: hidden;
 }
 .categories-page-list-item {
-  width: 33.33333333333333%;
+  width: 25%;
   float: left;
   display: flex;
-  color: var(--text-color);
+  color: #fff;
   font-size: 1.3rem;
   flex-direction: column;
   align-items: center;
