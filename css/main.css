@@ -635,7 +635,7 @@ pre[class*='highlight'] {
   margin-bottom: 0.85rem;
 }
 .post-title {
-  font-size: 1.85rem;
+  font-size: 1.45rem;
   font-weight: 500;
   margin: 0.5rem 0;
   padding-bottom: 0.4rem;
@@ -1488,7 +1488,7 @@ mjx-container svg:focus {
   overflow: hidden;
 }
 .categories-page-list-item {
-  width: 25%;
+  width: 20%;
   float: left;
   display: flex;
   color: #fff;
