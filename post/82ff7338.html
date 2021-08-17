@@ -26,7 +26,7 @@
   
   <meta property="og:type" content="article">
   <meta property="og:article:published_time" content="2021-06-24">
-  <meta property="og:article:modified_time" content="2021-07-19">
+  <meta property="og:article:modified_time" content="2021-08-17">
   <meta property="og:article:author" content="呲糖">
   
   
@@ -254,11 +254,11 @@
   <span class="token comment">// 分治</span>
   center <span class="token operator">=</span> <span class="token punctuation">(</span>left <span class="token operator">+</span> right<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
   MaxLeftSum <span class="token operator">=</span> <span class="token function">DivideAndConquer</span><span class="token punctuation">(</span>List<span class="token punctuation">,</span> Left<span class="token punctuation">,</span> center<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  MaxRightSum <span class="token operator">=</span> <span class="token function">DivideAndConquer</span><span class="token punctuation">(</span>List<span class="token punctuation">,</span> center<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span> right<span class="token punctuation">)</span>
+  MaxRightSum <span class="token operator">=</span> <span class="token function">DivideAndConquer</span><span class="token punctuation">(</span>List<span class="token punctuation">,</span> center <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> right<span class="token punctuation">)</span>
 
   <span class="token comment">// 求跨界的最大子列和</span>
   MaxLeftBorderSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> LeftBorderSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> center<span class="token punctuation">;</span> i <span class="token operator">>=</span> left<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> center<span class="token punctuation">;</span> i <span class="token operator">>=</span> left<span class="token punctuation">;</span> <span class="token operator">--</span>i<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     LeftBorderSum <span class="token operator">+=</span> List<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span>LeftBorderSum <span class="token operator">></span> MaxLeftBorderSum<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
       MaxLeftBorderSum <span class="token operator">=</span> LeftBorderSum<span class="token punctuation">;</span>
@@ -266,7 +266,7 @@
   <span class="token punctuation">&#125;</span>  <span class="token comment">// 左边扫描结束</span>
 
   MaxRightBorderSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> RightBorderSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> center <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> right<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> center <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> right<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     RightBorderSum <span class="token operator">+=</span> List<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span>RightBorderSum <span class="token operator">></span> MaxRightBorderSum<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
       MaxRightBorderSum <span class="token operator">=</span> RightBorderSum<span class="token punctuation">;</span>
